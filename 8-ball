@@ -1,0 +1,42 @@
+userName = "";
+userName ? console.log("Hello ${userName}") : userName;
+
+const userQuestion = "";
+userQuestion  
+ ? console.log("") : console.log("Please ask a question.");
+
+let randomNumber = Math.floor(Math.random() * 8);
+
+let eightball = "";
+
+switch (randomNumber) {
+  case 0:
+    eightball = "It is certain";
+    break;
+  case 1:
+    eightball = "It is decidedly so";
+    break;
+  case 2:
+    eightball = "Without a doubt";
+    break;
+  case 3:
+    eightball = "Yes - definitely";
+    break;
+  case 4:
+    eightball = "You may rely on it";
+    break;
+  case 5:
+    eightball = "As I see it, yes";
+    break;
+  case 6:
+    eightball = "Outlook good";
+    break;
+  case 7:
+    eightball = "Signs point to yes";
+    break;
+  default:
+    eightball = "Cannot predict now";
+    break;
+}
+
+console.log(eightball);
